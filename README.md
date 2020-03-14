@@ -49,6 +49,14 @@ Server: Docker Engine - Community
 
 
 ## 実験
+
+https://cwiki.apache.org/confluence/display/TIKA/TikaServer
+
+```
+% curl -X GET http://localhost:9998/tika
+This is Tika Server (Apache Tika 1.23). Please PUT
+```
+
 何かファイルを与えてみる。
 ```
 % curl -T data/Book1.xlsx http://localhost:9998/tika
@@ -65,3 +73,9 @@ Sheet2
 
 ```
 「スバラシイ」、「オイカゼ」は Tika が付与したのだろうか？
+
+
+```
+% curl -T data/hello.txt http://localhost:9998/language/stream         
+en
+```

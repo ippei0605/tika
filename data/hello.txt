@@ -1,0 +1,4 @@
+Hello world.
+
+Introduction to Tika server
+This page is documentation on accessing Tika as a RESTful API via the Tika server (tika-server module).
