@@ -1,0 +1,32 @@
+# Server
+server/public
+server/.nyc_output
+
+# Client
+!client/public/favicon.ico
+!client/public/index.html
+client/public/*
+
+# NPM モジュール
+node_modules
+
+# JSDoc の出力先
+out
+
+# istanbul の出力先
+coverage
+
+# 設定ファイル
+.idea
+*.iml
+.settings
+.project
+
+# その他
+.setenv*
+.command-memo
+package-lock.json
+dist
+upload
+.vscode/launch.json
+*.un~
