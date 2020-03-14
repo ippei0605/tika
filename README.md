@@ -55,5 +55,13 @@ Server: Docker Engine - Community
 Sheet1
         manaBrain Retriever は素晴らしいクラウドサービスです。 スバラシイ 
 
+
+Sheet2
+        #       サービス
+        1       manaBbrain
+        2       manaBrain Retriever
+        3       追い風 オイカゼ 
+
+
 ```
-「スバラシイ」は Tika が付与したのだろうか？
+「スバラシイ」、「オイカゼ」は Tika が付与したのだろうか？
